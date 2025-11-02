@@ -17,7 +17,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-V5CMYS34L5"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-V5CMYS34L5');
@@ -111,40 +111,91 @@
       <h2 class="page-header">Projects</h2>
 
       <div class="project-container">
+
         <div class="project-card" id="project1">
           <div class="project-number project-number-right">01</div>
           <div class="project-content project-content-left">
 
             <div class="project-skills-container">
               <div style="display: flex; align-items: center; gap: 16px;">
-                <img class="project-skill" src="./images/stack/Express.png" alt=""
+                <img class="project-skill" src="./images/stack/Docker.svg" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+                <img class="project-skill" src="./images/stack/Typescript.svg" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+                <img class="project-skill" src="./images/stack/FastAPI.png" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+                <img class="project-skill" src="./images/stack/Pytorch.png" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+                <img class="project-skill" src="./images/stack/Jenkins.png" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+                <img class="project-skill" src="./images/stack/Prometheus.png" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+                <img class="project-skill" src="./images/stack/Grafana.png" alt=""
                   style="width: 40px; height: 40px; object-fit: contain;" />
                 <img class="project-skill" src="./images/stack/Tailwind.png" alt=""
                   style="width: 40px; height: 40px; object-fit: contain;" />
-                <img class="project-skill" src="./images/stack/NodeJs.svg" alt=""
-                  style="width: 40px; height: 40px; object-fit: contain;" />
-                <img class="project-skill" src="./images/stack/HuggingFace.png" alt=""
+                <img class="project-skill" src="./images/stack/MongoDB.svg" alt=""
                   style="width: 40px; height: 40px; object-fit: contain;" />
                 <img class="project-skill" src="./images/stack/Redux.svg" alt=""
-                  style="width: 40px; height: 40px; object-fit: contain;" />
-                <img class="project-skill" src="./images/stack/Postgres.svg" alt=""
                   style="width: 40px; height: 40px; object-fit: contain;" />
                 <img class="project-skill" src="./images/stack/React.png" alt=""
                   style="width: 40px; height: 40px; object-fit: contain;" />
               </div>
             </div>
 
-            <h2 class="project-heading">Imgenius</h2>
+            <h2 class="project-heading">AgriVision</h2>
 
-            <p class="project-subHeading">A robust image-to-3D web application that transforms four 2D images into
-              detailed 3D models using the Hunyuan3D-2 model. Built with the MERN stack and deployed across AWS and GCP
-              for efficient, scalable performance.
+            <p class="project-subHeading">An AI-based web app built with React, FastAPI, and MongoDB for real-time plant
+              disease prediction from images. Uses an ensemble of CNN models for 99% accuracy, with JWT authentication,
+              Dockerized deployment, and CI/CD monitoring via Jenkins, Prometheus, and Grafana.
             </p>
+            <div class="btn-grp">
+              <a href="https://github.com/hetchaudhari123/plant-app">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div class="project-card" id="project2">
+          <div class="project-number project-number-right">02</div>
+          <div class="project-content project-content-left">
+            <div class="project-skill-container" style="display: flex; align-items: center; gap: 16px;">
+              <img class="project-skill" src="./images/stack/VercelWhite.svg" alt=""
+                style="width: 40px; height: 40px; object-fit: contain;" />
+              <img class="project-skill" src="./images/stack/Streamlit.png" alt=""
+                style="width: 40px; height: 40px; object-fit: contain;" />
+              <img class="project-skill" src="./images/stack/python-svgrepo-com.svg" alt=""
+                style="width: 40px; height: 40px; object-fit: contain;" />
+              <img class="project-skill" src="./images/stack/langchain.jpeg" alt=""
+                style="width: 40px; height: 40px; object-fit: contain;" />
+            </div>
+
+
+
+
+            <h2 class="project-heading">DocSpark</h2>
+            <p class="project-sub-heading">
+              A document processing and interaction application that leverages NLP concepts like LangGraph
+              and corrective RAG.
+              It allows users to upload documents, take quizzes, get job-related information, and more.
+            </p>
+            <div class="btn-group">
+              <a href="https://github.com/hetchaudhari123/DocSpark">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="https://docspark-yvuwr9mbzp.streamlit.app/">
+                <i title="Live Link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
 
           </div>
         </div>
-        <div class="project-card" id="project2">
-          <div class="project-number project-number-right">02</div>
+        <div class="project-card" id="project3">
+          <div class="project-number project-number-right">03</div>
           <div class="project-content project-content-left">
 
             <div class="project-skills-container">
@@ -185,76 +236,8 @@
           </div>
         </div>
 
-        <div class="project-card" id="project3">
-          <div class="project-number project-number-left">03</div>
-          <div class="project-content project-content-right">
-
-            <div class="project-skill-container" style="display: flex; align-items: center; gap: 16px;">
-              <img class="project-skill" src="./images/stack/ChartJs.svg" alt=""
-                style="width: 40px; height: 40px; object-fit: contain;" />
-              <img class="project-skill" src="./images/stack/MaterialUI.svg" alt=""
-                style="width: 40px; height: 40px; object-fit: contain;" />
-              <img class="project-skill" src="./images/stack/React.png" alt=""
-                style="width: 40px; height: 40px; object-fit: contain;" />
-              <img class="project-skill" src="./images/stack/MongoDB.svg" alt=""
-                style="width: 40px; height: 40px; object-fit: contain;" />
-              <img class="project-skill" src="./images/stack/VercelWhite.svg" alt=""
-                style="width: 40px; height: 40px; object-fit: contain;" />
-            </div>
-
-            <h2 class="project-heading">Tube-Metrics</h2>
-            <p class="project-sub-heading">
-              A web application that provides comprehensive insights and data analysis for YouTube
-              channels. It uses React.js, Material-UI, Auth0, and Flask.
-            </p>
-            <div class="btn-group">
-              <a href="https://github.com/hetchaudhari123/tube-metric-full-stack">
-                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-              </a>
-              <a href="https://tube-metric-full-stack.vercel.app/">
-                <i title="Live Link" class="fa-solid fa-link icon"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-
         <div class="project-card" id="project4">
-          <div class="project-number project-number-right">04</div>
-          <div class="project-content project-content-left">
-            <div class="project-skill-container" style="display: flex; align-items: center; gap: 16px;">
-              <img class="project-skill" src="./images/stack/VercelWhite.svg" alt=""
-                style="width: 40px; height: 40px; object-fit: contain;" />
-              <img class="project-skill" src="./images/stack/Streamlit.png" alt=""
-                style="width: 40px; height: 40px; object-fit: contain;" />
-              <img class="project-skill" src="./images/stack/python-svgrepo-com.svg" alt=""
-                style="width: 40px; height: 40px; object-fit: contain;" />
-              <img class="project-skill" src="./images/stack/langchain.jpeg" alt=""
-                style="width: 40px; height: 40px; object-fit: contain;" />
-            </div>
-
-
-
-
-            <h2 class="project-heading">DocSpark</h2>
-            <p class="project-sub-heading">
-              A document processing and interaction application that leverages NLP concepts like LangGraph
-              and corrective RAG.
-              It allows users to upload documents, take quizzes, get job-related information, and more.
-            </p>
-            <div class="btn-group">
-              <a href="https://github.com/hetchaudhari123/DocSpark">
-                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
-              </a>
-              <a href="https://docspark-yvuwr9mbzp.streamlit.app/">
-                <i title="Live Link" class="fa-solid fa-link icon"></i>
-              </a>
-            </div>
-
-          </div>
-        </div>
-        <div class="project-card" id="project5">
-          <div class="project-number project-number-left">05</div>
+          <div class="project-number project-number-left">04</div>
           <div class="project-content project-content-right">
             <div class="project-skill-container" style="display: flex; align-items: center; gap: 16px;">
               <img class="project-skill" src="./images/stack/React.png" alt=""
@@ -286,6 +269,71 @@
             </div>
           </div>
         </div>
+        <div class="project-card" id="project5">
+          <div class="project-number project-number-left">05</div>
+          <div class="project-content project-content-right">
+
+            <div class="project-skill-container" style="display: flex; align-items: center; gap: 16px;">
+              <img class="project-skill" src="./images/stack/ChartJs.svg" alt=""
+                style="width: 40px; height: 40px; object-fit: contain;" />
+              <img class="project-skill" src="./images/stack/MaterialUI.svg" alt=""
+                style="width: 40px; height: 40px; object-fit: contain;" />
+              <img class="project-skill" src="./images/stack/React.png" alt=""
+                style="width: 40px; height: 40px; object-fit: contain;" />
+              <img class="project-skill" src="./images/stack/MongoDB.svg" alt=""
+                style="width: 40px; height: 40px; object-fit: contain;" />
+              <img class="project-skill" src="./images/stack/VercelWhite.svg" alt=""
+                style="width: 40px; height: 40px; object-fit: contain;" />
+            </div>
+
+            <h2 class="project-heading">Tube-Metrics</h2>
+            <p class="project-sub-heading">
+              A web application that provides comprehensive insights and data analysis for YouTube
+              channels. It uses React.js, Material-UI, Auth0, and Flask.
+            </p>
+            <div class="btn-group">
+              <a href="https://github.com/hetchaudhari123/tube-metric-full-stack">
+                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+              </a>
+              <a href="https://tube-metric-full-stack.vercel.app/">
+                <i title="Live Link" class="fa-solid fa-link icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card" id="project6">
+          <div class="project-number project-number-right">06</div>
+          <div class="project-content project-content-left">
+
+            <div class="project-skills-container">
+              <div style="display: flex; align-items: center; gap: 16px;">
+                <img class="project-skill" src="./images/stack/Express.png" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+                <img class="project-skill" src="./images/stack/Tailwind.png" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+                <img class="project-skill" src="./images/stack/NodeJs.svg" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+                <img class="project-skill" src="./images/stack/HuggingFace.png" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+                <img class="project-skill" src="./images/stack/Redux.svg" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+                <img class="project-skill" src="./images/stack/Postgres.svg" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+                <img class="project-skill" src="./images/stack/React.png" alt=""
+                  style="width: 40px; height: 40px; object-fit: contain;" />
+              </div>
+            </div>
+
+            <h2 class="project-heading">Imgenius</h2>
+
+            <p class="project-subHeading">A robust image-to-3D web application that transforms four 2D images into
+              detailed 3D models using the Hunyuan3D-2 model. Built with the MERN stack and deployed across AWS and GCP
+              for efficient, scalable performance.
+            </p>
+
+          </div>
+        </div>
+
 
 
       </div>
@@ -460,24 +508,33 @@
 
       <div class="skill-container-right">
         <img src="./images/userAsset/blob vector.png" class="blob-style" alt="" />
-
-        <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
-        <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+        <img src="./images/stack/cpp.png" alt="" class="skills-logo" />
+        <img src="./images/stack/python-svgrepo-com.svg" alt="" class="skills-logo" />
         <img src="./images/stack/Javascript.svg" alt="" class="skills-logo" />
         <img src="./images/stack/React.png" alt="" class="skills-logo" />
-        <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
         <img src="./images/stack/Redux.svg" alt="" class="skills-logo" />
-        <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+        <img src="./images/stack/NodeJs.svg" alt="" class="skills-logo" />
         <img src="./images/stack/Express.png" alt="" class="skills-logo" />
+        <img src="./images/stack/HTML.png" alt="" class="skills-logo" />
+        <img src="./images/stack/CSS.png" alt="" class="skills-logo" />
+        <img src="./images/stack/Tailwind.png" alt="" class="skills-logo" />
+        <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/langchain-text.svg" alt="" class="skills-logo" />
         <img src="./images/stack/HuggingFace.png" alt="" class="skills-logo" />
         <img src="./images/stack/Streamlit.png" alt="" class="skills-logo" />
         <img src="./images/stack/Postgres.svg" alt="" class="skills-logo" />
-        <img src="./images/stack/python-svgrepo-com.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/FastAPI.png" alt="" class="skills-logo" />
         <img src="./images/stack/flask-svgrepo-com.svg" alt="" class="skills-logo" />
-        <img src="./images/stack/MongoDB.svg" alt="" class="skills-logo" />
         <img src="./images/stack/VercelWhite.svg" alt="" class="skills-logo" />
         <img src="./images/stack/MaterialUI.svg" alt="" class="skills-logo" />
         <img src="./images/stack/ChartJs.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Git.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Github.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Docker.svg" alt="" class="skills-logo" />
+        <img src="./images/stack/Jenkins.png" alt="" class="skills-logo" />
+        <img src="./images/stack/Prometheus.png" alt="" class="skills-logo" />
+        <img src="./images/stack/Grafana.png" alt="" class="skills-logo" />
+
       </div>
 
 
