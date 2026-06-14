@@ -581,12 +581,14 @@ a {
   }
 }
 
+
 .skills-container {
   position: relative;
   display: flex;
   padding: 5rem;
   margin: 10rem auto;
   gap: 30px;
+  overflow: hidden; /* Added this to clip the faded background text */
 }
 
 .skill-container-left {
